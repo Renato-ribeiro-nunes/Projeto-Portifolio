@@ -1,0 +1,69 @@
+
+
+/* Estilização do site (cores)*/
+header{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(31, 18, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(56, 33, 58);
+    margin: 0;
+    padding: 0; 
+}
+
+footer{
+    margin-top: 100%;
+    background-color: rgb(3, 3, 3);
+}
+
+/* Estilização do site (cores da pagina)*/
+
+.layout {
+    text-align: center;
+}
+
+.logo {
+    margin-right: 100%;
+}
+
+.botao_menu {
+    text-align: center;
+    
+}
+
+.botao_menu ul{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+
+
+}
+
+.botao_menu a{
+    text-decoration: none;
+    padding: 17px 35px;
+    background-color: black;
+    color: white;
+    border: 2px groove rgb(219, 172, 52);
+    border-radius: 6px;
+    font-weight: bold;
+   
+}
+
+.layout{
+    width: 100%;
+    height: 173px;
+    margin: 0 auto;
+    background: rgb(219, 172, 52);
+}
+
+footer{
+    color: aliceblue;
+}
