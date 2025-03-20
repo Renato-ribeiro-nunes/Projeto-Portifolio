@@ -14,18 +14,18 @@ header{
     width: 100%;
     height: 58px;
     margin: 0 auto;
-    background: rgb(219, 172, 52);
+    background: rgb(209, 164, 51);
 }
 
 body{
-    background-color: rgb(6, 2, 8);
+    background-color: rgb(18, 13, 20);
     margin: 0;
     padding: 0; 
 }
 
 footer{
     margin-top: 100%;
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(124, 70, 124);
 }
 
 /*^^^Estilização do site (cores da pagina)^^^*/
@@ -46,7 +46,16 @@ footer{
     color: black;
     transform: scale(1.1);
     transition: 0.3s ease-in;
+    
+}
 
+.botao_menu ul{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: -9px;
+    gap: 15px;
+    padding: 0;
 }
 /* Botão,animaçoes e cores*/
 
@@ -67,11 +76,6 @@ footer{
 }
 
 
-.botao_menu ul{
-    display: flex;
-    position: absolute;
-    left: 20px;
-    top: -9px;
-    gap: 15px;
-    padding: 0;
+#experiencia {
+    color: aliceblue;
 }
