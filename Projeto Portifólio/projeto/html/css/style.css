@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 415px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .botao_menu {
+        width: 100%;
+        background-color: black;
+        padding: 5px 0;
+
+    }
+
+    .botao_menu ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .botao_menu a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+
+html, body{
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+/* Estilização do site (cores da pagina)*/
+header {
+    width: 100%;
+    min-width: 55px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative ;
+}
+
+
+.layout {
+    width: 100%;
+    height: 72px;
+    margin: 0 auto;
+    background: rgb(219, 172, 52);
+    
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    height: 30px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*^^^Estilização do site (cores da pagina)^^^*/
+
+/* Botão,animaçoes e cores*/
+.botao_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.botao_menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+
+.botao_menu a:hover {
+    background-color: rgb(219, 172, 52);
+    color: rgb(8, 8, 8);
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+    
+}
+
+.botao_menu ul {
+    display: flex;
+    list-style: none;
+    left: 20px;
+    top: 4px;
+    gap: 15px;
+    padding: 0;
+}
+  
+/* Botão,animaçoes e cores*/
+
+
+
+
+/*Fonte e textos*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1,h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    margin-top: -16px;
+    border-bottom: 2px solid rgb(219, 172, 52);
+    padding-bottom: 5px;
+}
+
+.textos {
+    
+    color: aliceblue;
+}
+/*Fonte e textos^^^*/

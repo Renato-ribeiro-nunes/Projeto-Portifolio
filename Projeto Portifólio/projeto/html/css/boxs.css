@@ -1,5 +1,15 @@
-
-
+@media (max-width: 390px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .caixa1, .caixa2, .caixa3 {
+        width: 90%; /* Ocupa mais espaço em telas menores */
+        height: auto;
+    }
+}
 
 .container {
     display: grid;
@@ -8,34 +18,45 @@
     justify-items: center;
 }
 
-
 .caixa1, .caixa2, .caixa3 {
-    width: 35%;
-    height: 200px;
-    padding: 34px;
-    margin : 40px;
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
     color: aliceblue;
     text-align: center;
     border-radius: 8px;
-    
-    background-color: rgb(36, 35, 36);
+    background-color: rgb(26, 25, 25);
     overflow: hidden;
-    
 }
 
 .icones {
     display: inline-block;
-    width: 64px;
-    height: 20px;
-    padding: 27px;
+    width: 100%;
+    max-width: 60px;
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
     color: aliceblue;
-    text-align: center;
     border-radius: 8px;
-    border: 2px solid rgb(204, 161, 52);
+
     background-color: rgb(36, 35, 36);
     overflow: hidden;
-    
 }
+
+.caixa3 a {
+    color: rgb(219, 172, 52); 
+    text-decoration: none; 
+    font-weight: bold;  
+    transition: color 0.3s ease-in-out;
+}
+
+.caixa3 a:hover {
+    color: rgb(255, 204, 77); 
+    text-decoration: underline; 
+}
+
 
 .icones img {
     position: relative;
@@ -46,13 +67,21 @@
     height: auto;
 }
 
-
-
 .caixa2 .icones:hover{
-    
     background-color: rgb(219, 172, 52);
     color: black;
     transform: scale(1.1);
     transition: 0.3s ease-in;
-    
+}
+
+
+#python-icon {
+    width: 63%;
+    top: -6px;
+    left: 11px;
+}
+
+#sql-icon {
+    width: 80%;
+    top: 3px;
 }
